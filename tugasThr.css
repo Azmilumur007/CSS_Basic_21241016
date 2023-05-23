@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(32, 30, 23, 0.781);
+    background-image: url(img/ss.png);
+    color: white;
+    font-family: 'Times New Roman', Times, serif
+}
+h1{
+    color: red;
+    font-variant: small-caps;
+}
+p{
+    text-indent: 2%;
+    word-spacing: 3px;
+    text-align: justify;
+}
+
+ul li:nth-child(even){
+    color: red;
+}
+
+.a1:link{
+    color: rgb(251, 255, 0);
+    text-decoration: none;
+}
+.a1:hover{
+    font-family: arial;
+    font-size: 20px;
+    color: aqua;
+}
+.a1:active{
+    font-style: italic;
+}
+.a1:visited{
+    color: rgb(9, 184, 33);
+}
+
+.a2:link{
+    color: rgb(173, 70, 22);
+    text-decoration: none;
+}
+.a2:hover{
+    font-family: arial;
+    font-size: 20px;
+    color: rgb(10, 134, 27);
+}
+.a2:active{
+    font-style: italic;
+}
+.a2:visited{
+    color: rgb(165, 15, 224);
+}
